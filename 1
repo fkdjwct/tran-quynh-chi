@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Squared Numbers Between A and B</title>
+        <script>
+            function calc() {
+                var a = parseInt(document.getElementById("numA").value);
+                var b = parseInt(document.getElementById("numB").value);
+
+                var text = document.getElementById("text");
+                text.innerHTML = "";
+                if (a > 0 && b > 0) {
+                    text.innerHTML = "Các số chính phương trong khoảng từ " + a + " đến " + b + ":"
+                }
+                
+                
+                var result = document.getElementById("result");
+                result.innerHTML = "";
+
+                for (var i = Math.ceil(Math.sqrt(a)); i <= Math.floor(Math.sqrt(b)); i++) {
+                    var square = i * i;
+                    if (square >= a && square <= b) {
+                        result.innerHTML += square + " ";
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Nhập vào hai số a và b:</h1>
+        <label for="numA">a: </label>
+        <input type="number" id="numA"><br>
+
+        <label for="numB">b: </label>
+        <input type="number" id="numB"><br>
+
+        <button onclick="calc()">Hiển thị số chính phương</button>
+
+        <h2 id="text"></h2>
+        <div id="result"></div>
+    </body>
+</html>
