@@ -1,0 +1,88 @@
+html {
+ width: 1024px;
+height:849px;;background-color:#1C233D;color: #E5E5E5;
+font-family: Space Grotesk; ;
+}
+.whole{position: relative;background-color:#1C233D;color: #E5E5E5;
+font-family: Space Grotesk; ;}
+.header{padding-top: 15px;padding-left: 72px;padding-right: 75px;
+color: #E5E5E5;
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+#saphire{
+color: #E5E5E5;
+font-family: Space Grotesk;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+#search{
+width: 242px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #E5E5E5;}
+#signIn{display: inline-flex;
+padding: 8px 31px 9px 29px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);}
+
+.nft{margin-top:138px; margin-left:62px; 
+color: #FFF;
+font-family: Space Grotesk;
+font-size: 60px;
+font-style: normal;
+font-weight: 250;
+line-height: normal;
+    height:231px;width:400px}
+.sub{margin-top:px; margin-left:62px; width: 300px;
+height: 40px;}
+
+.discover{margin-top:10px;margin-left: 60px;display: inline-flex;height:40px;width: 199px;
+padding: 8px 31px 9px 29px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: linear-gradient(55deg, rgba(191, 196, 238, 0.09) 15.52%, #C367E6 58.75%, rgba(190, 206, 239, 0.00) 100%);}
+
+.monkeyframe{position: absolute;margin-top:-350px;margin-left: 551px;
+  width: 404px;
+height: 494px;
+flex-shrink: 0;border-radius: 10px;
+background: #30384D;}
+
+.table1{height:2000px;width: 400px;margin-top:px;margin-left:-489px;
+        color: #E5E5E5; ;
+font-family: Space Grotesk;}
+#row1{color: #FFF;padding-right:50px;
+font-family: Space Grotesk;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;}
+#row2{color: #E5E5E5;
+font-family: Space Grotesk;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;}
+
+#m1{width: 357.28px; margin-top:29px;margin-left:25.72px;
+height: 370.238px;
+flex-shrink: 0;border-radius: 4.894px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
+#m11{color: #FFF;margin-top:10.76px;margin-left:25.72px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;}
+.anh{width: 29px;
+height: 28px;
+flex-shrink: 0;margin-top:10px;margin-left:20px;}
